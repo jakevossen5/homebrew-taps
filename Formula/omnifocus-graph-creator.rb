@@ -17,7 +17,7 @@ class OmnifocusGraphCreator < Formula
     #                       "--prefix=#{prefix}"
     # system "cmake", ".", *std_cmake_args
     system "make", "prepare-for-install" # if this fails, try separate make/make install steps
-    bin.install(omnifocusgraphcreator)
+    bin.install "omnifocusgraphcreator"
   end
 
   test do
