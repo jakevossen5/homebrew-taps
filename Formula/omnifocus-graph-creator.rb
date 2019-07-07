@@ -4,8 +4,9 @@
 class OmnifocusGraphCreator < Formula
   desc "Creates graphs to analyze your Omnifocus task completion history"
   homepage "https://github.com/jakevossen5/omnifocus-graph-creator"
-  url "https://github.com/jakevossen5/omnifocus-graph-creator/archive/1.0.3.tar.gz"
-  sha256 "a85de22a13ef9105a79d23d67348ae011bd6ede76ff4fd3d180c623551e8152e"
+  url "https://github.com/jakevossen5/omnifocus-graph-creator/archive/1.0.4.tar.gz"
+  sha256 "d7cc20c7fd178a7166c5e32f23c59bbbd2c9bbe6089a1c514396ac76f9c3fd10"
+  version "1.0.4"
   # depends_on "cmake" => :build
 
   def install
@@ -17,7 +18,7 @@ class OmnifocusGraphCreator < Formula
     #                       "--prefix=#{prefix}"
     # system "cmake", ".", *std_cmake_args
     system "make", "prepare-for-install" # if this fails, try separate make/make install steps
-    bin.install "omnifocusgraphcreator"
+    bin.install "omnifocus-graph-creator"
   end
 
   test do
