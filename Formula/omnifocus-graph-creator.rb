@@ -2,6 +2,7 @@
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class OmnifocusGraphCreator < Formula
+  include Language::Python::Virtualenv
   desc "Creates graphs to analyze your Omnifocus task completion history"
   homepage "https://github.com/jakevossen5/omnifocus-graph-creator"
   url "https://github.com/jakevossen5/omnifocus-graph-creator/archive/1.0.4.tar.gz"
