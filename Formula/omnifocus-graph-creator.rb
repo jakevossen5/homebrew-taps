@@ -17,6 +17,12 @@ class OmnifocusGraphCreator < Formula
 end
 
   def install
+      xy = Language::Python.major_minor_version "python3"
+      venv = virtualenv_create(libexec, "python3")
+      
+      resources.each do |r|
+          venv.pip_install_and_link r
+      end
     # ENV.deparallelize  # if your formula fails when building in parallel
     # Remove unrecognized options if warned by configure
     # system "./configure", "--disable-debug",
