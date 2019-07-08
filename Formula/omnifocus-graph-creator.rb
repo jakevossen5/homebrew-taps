@@ -21,8 +21,8 @@ class OmnifocusGraphCreator < Formula
     #                       "--disable-silent-rules",
     #                       "--prefix=#{prefix}"
     # system "cmake", ".", *std_cmake_args
-    system "make", "prepare-for-install" # if this fails, try separate make/make install steps
-    bin.install "omnifocus-graph-creator"
+    #  system "make", "prepare-for-install" # if this fails, try separate make/make install steps
+    #bin.install "omnifocus-graph-creator"
   end
 
   test do
