@@ -5,26 +5,15 @@ class OmnifocusGraphCreator < Formula
   include Language::Python::Virtualenv
   desc "Creates graphs to analyze your Omnifocus task completion history"
   homepage "https://github.com/jakevossen5/omnifocus-graph-creator"
-  url "https://github.com/jakevossen5/omnifocus-graph-creator/archive/1.0.4.tar.gz"
-  sha256 "d7cc20c7fd178a7166c5e32f23c59bbbd2c9bbe6089a1c514396ac76f9c3fd10"
-  version "1.0.4"
+  url "https://github.com/jakevossen5/omnifocus-graph-creator/archive/1.0.6.tar.gz"
+  sha256 "3db2001ee4fdc19b5d44afc39150d90e2cb94fbb104c92608ab3e110aaa3db1b"
+  version "1.0.6"
   
   depends_on "python"
   depends_on "freetype"
-  
-    resource "numpy" do
-        url "https://files.pythonhosted.org/packages/d3/4b/f9f4b96c0b1ba43d28a5bdc4b64f0b9d3fbcf31313a51bc766942866a7c7/numpy-1.16.4.zip"
-        sha256 "7242be12a58fec245ee9734e625964b97cf7e3f2f7d016603f9e56660ce479c7"
-    end
-  resource "matplotlib" do
-    url "https://files.pythonhosted.org/packages/12/d1/7b12cd79c791348cb0c78ce6e7d16bd72992f13c9f1e8e43d2725a6d8adf/matplotlib-3.1.1.tar.gz"
-    sha256 "1febd22afe1489b13c6749ea059d392c03261b2950d1d45c17e3aed812080c93"
-    end
 
   def install
-      venv = virtualenv_create(libexec, "python3")
-      venv.pip_install "numpy"
-      venv.pip_install "matplotlib"
+      virtualenv_install_with_resources
     # ENV.deparallelize  # if your formula fails when building in parallel
     # Remove unrecognized options if warned by configure
     # system "./configure", "--disable-debug",
