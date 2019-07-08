@@ -16,6 +16,11 @@ class OmnifocusGraphCreator < Formula
   sha256 "1febd22afe1489b13c6749ea059d392c03261b2950d1d45c17e3aed812080c93"
 end
 
+resource "numpy" do
+    url "https://files.pythonhosted.org/packages/d3/4b/f9f4b96c0b1ba43d28a5bdc4b64f0b9d3fbcf31313a51bc766942866a7c7/numpy-1.16.4.zip"
+    sha256 "7242be12a58fec245ee9734e625964b97cf7e3f2f7d016603f9e56660ce479c7"
+end
+
   
   depends_on "python"
   depends_on "freetype"
