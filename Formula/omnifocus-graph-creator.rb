@@ -23,8 +23,8 @@ end
 
 resource "pyparsing" do
     url "https://files.pythonhosted.org/packages/5d/3a/24d275393f493004aeb15a1beae2b4a3043526e8b692b65b4a9341450ebe/pyparsing-2.4.0.tar.gz"
-    sha256 1873c03321fc118f4e9746baf201ff990ceb915f433f23b395f5580d1840cb2a
-    end
+    sha256 "1873c03321fc118f4e9746baf201ff990ceb915f433f23b395f5580d1840cb2a"
+ end
 
   
   depends_on "python"
