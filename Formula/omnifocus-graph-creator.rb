@@ -21,6 +21,11 @@ resource "numpy" do
     sha256 "7242be12a58fec245ee9734e625964b97cf7e3f2f7d016603f9e56660ce479c7"
 end
 
+resource "pyparsing" do
+    url "https://files.pythonhosted.org/packages/5d/3a/24d275393f493004aeb15a1beae2b4a3043526e8b692b65b4a9341450ebe/pyparsing-2.4.0.tar.gz"
+    sha256 1873c03321fc118f4e9746baf201ff990ceb915f433f23b395f5580d1840cb2a
+    end
+
   
   depends_on "python"
   depends_on "freetype"
