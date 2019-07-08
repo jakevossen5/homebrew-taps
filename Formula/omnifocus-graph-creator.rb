@@ -10,6 +10,7 @@ class OmnifocusGraphCreator < Formula
   version "1.0.4"
   
   depends_on "python"
+  depends_on "freetype"
   
     resource "numpy" do
         url "https://files.pythonhosted.org/packages/d3/4b/f9f4b96c0b1ba43d28a5bdc4b64f0b9d3fbcf31313a51bc766942866a7c7/numpy-1.16.4.zip"
