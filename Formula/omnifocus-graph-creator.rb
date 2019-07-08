@@ -5,17 +5,12 @@ class OmnifocusGraphCreator < Formula
   include Language::Python::Virtualenv
   desc "Creates graphs to analyze your Omnifocus task completion history"
   homepage "https://github.com/jakevossen5/omnifocus-graph-creator"
-  url "https://github.com/jakevossen5/omnifocus-graph-creator/archive/1.0.4.tar.gz"
-  sha256 "d7cc20c7fd178a7166c5e32f23c59bbbd2c9bbe6089a1c514396ac76f9c3fd10"
-  version "1.0.4"
+  url "https://github.com/jakevossen5/omnifocus-graph-creator/archive/1.0.7.tar.gz"
+  sha256 "8f92ea5c3c7f7e446cd278182722223c0498d5cccc1a87d2388d91f236e25223"
+  version "1.0.7"
   
   depends_on "python"
-  
-  
-  resource "matplotlib" do
-  url "https://files.pythonhosted.org/packages/12/d1/7b12cd79c791348cb0c78ce6e7d16bd72992f13c9f1e8e43d2725a6d8adf/matplotlib-3.1.1.tar.gz"
-  sha256 "1febd22afe1489b13c6749ea059d392c03261b2950d1d45c17e3aed812080c93"
-end
+  depends_on "freetype"
 
   def install
       virtualenv_install_with_resources
@@ -26,8 +21,8 @@ end
     #                       "--disable-silent-rules",
     #                       "--prefix=#{prefix}"
     # system "cmake", ".", *std_cmake_args
-    system "make", "prepare-for-install" # if this fails, try separate make/make install steps
-    bin.install "omnifocus-graph-creator"
+    #  system "make", "prepare-for-install" # if this fails, try separate make/make install steps
+    #bin.install "omnifocus-graph-creator"
   end
 
   test do
