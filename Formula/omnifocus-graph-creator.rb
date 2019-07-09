@@ -47,7 +47,7 @@ end
   depends_on "freetype"
 
   def install
-      system "make" "prepare"
+      system "make", "prepare"
       virtualenv_install_with_resources
     # ENV.deparallelize  # if your formula fails when building in parallel
     # Remove unrecognized options if warned by configure
