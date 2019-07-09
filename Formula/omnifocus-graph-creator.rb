@@ -8,7 +8,7 @@ class OmnifocusGraphCreator < Formula
   url "https://github.com/jakevossen5/omnifocus-graph-creator/archive/1.0.7.tar.gz"
   sha256 "8f92ea5c3c7f7e446cd278182722223c0498d5cccc1a87d2388d91f236e25223"
   version "1.0.7"
-  revision 1
+  revision 2
   
 resource "matplotlib" do
   url "https://files.pythonhosted.org/packages/12/d1/7b12cd79c791348cb0c78ce6e7d16bd72992f13c9f1e8e43d2725a6d8adf/matplotlib-3.1.1.tar.gz"
