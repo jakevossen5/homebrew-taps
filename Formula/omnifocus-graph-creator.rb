@@ -5,9 +5,9 @@ class OmnifocusGraphCreator < Formula
   include Language::Python::Virtualenv
   desc "Creates graphs to analyze your Omnifocus task completion history"
   homepage "https://github.com/jakevossen5/omnifocus-graph-creator"
-  url "https://github.com/jakevossen5/omnifocus-graph-creator/archive/1.0.8.tar.gz"
-  sha256 "c64a1f1977aed73b115a3c7c504480ba3eeb8cafcabf3e8ad8247089556cbafa"
-  version "1.0.8"
+  url "https://github.com/jakevossen5/omnifocus-graph-creator/archive/1.0.9.tar.gz"
+  sha256 "ac887fa833be153e903f9d3bfab5457d2eb3c314a363a8397166f6e937a2f0be"
+  version "1.0.9"
   revision 2
   
 resource "matplotlib" do
