@@ -1,14 +1,14 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-class OmnifocusGraphCreator < Formula
+class CheckForHomebrewAlternatives < Formula
   include Language::Python::Virtualenv
   desc "Searches for homebrew versions of apps installed from other sources"
   homepage "https://github.com/jakevossen5/check-for-homebrew-alternatives"
   url "https://github.com/jakevossen5/check-for-homebrew-alternatives/archive/1.0.0.tar.gz"
   sha256 "adad2846c3c4d77bbcdf385214ab145cb3d9ea08bdfb0e07557a5075d578abbb"
   version "1.0.0"
-  
+
   depends_on "python"
 
   def install
