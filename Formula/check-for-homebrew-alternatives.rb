@@ -7,7 +7,7 @@ class CheckForHomebrewAlternatives < Formula
   homepage "https://github.com/jakevossen5/check-for-homebrew-alternatives"
   url "https://github.com/jakevossen5/check-for-homebrew-alternatives/archive/1.0.3.tar.gz"
   sha256 "79202a5d3fce8282bc373259c843080fba189db6398f4d1ab591c980561e7b54"
-  version "1.0.2"
+  version "1.0.3"
 
   depends_on "python"
 
