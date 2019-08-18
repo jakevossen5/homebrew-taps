@@ -11,6 +11,6 @@ jakevossen5/taps= in your terminal. Then install software by using
 
 |Name |Description |Link |
 |---+---+---|
-|   |   |   |
+|check-for-homebrew-alternatives |Looks through Applications folder and sees if you can replace anything with Homebrew versions|https://github.com/jakevossen5/check-for-homebrew-alternatives   |
 |   |   |   |
 |   |   |   |
