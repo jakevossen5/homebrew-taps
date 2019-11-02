@@ -1,7 +1,7 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-class CheckForHomebrewAlternatives < Formula
+class Sarcasm < Formula
   include Language::Python::Virtualenv
   desc "Converts text to format for mocking spongebob meme"
   homepage "https://github.com/jakevossen5/sarcasm"
