@@ -5,9 +5,9 @@ class Sarcasm < Formula
   include Language::Python::Virtualenv
   desc "Converts text to format for mocking spongebob meme"
   homepage "https://github.com/jakevossen5/sarcasm"
-  url "https://github.com/jakevossen5/sarcasm/archive/1.0.4.tar.gz"
-  sha256 "bdf74930b68e271a6b269b9f5461a8377b4a9cfd72c03660f46aede957e145e7"
-  version "1.0.4"
+  url "https://github.com/jakevossen5/sarcasm/archive/1.0.5.tar.gz"
+  sha256 "4433559db0185ff1af90d8b7846f304943c5f508af09479cf8cd83743dc356bb"
+  version "1.0.5"
 
   depends_on "python"
 
