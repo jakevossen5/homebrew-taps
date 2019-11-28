@@ -4,7 +4,7 @@
 class PiGeneratorFromRandomNumbers < Formula
   desc "Generates Pi from random numbers and co-primes"
   homepage "https://github.com/jakevossen5/pi-generator-from-random-numbers"
-  url "https://github.com/jakevossen5/pi-generator-from-random-numbers/releases/download/2.0.1/spi-generator-from-random-numbers"
+  url "https://github.com/jakevossen5/pi-generator-from-random-numbers/releases/download/2.0.1/pi-generator-from-random-numbers"
   sha256 "69e9207ea6deb623266583ae0420ad7c5891deac1bfa18c515e0bd0d65112942"
   version "2.0.1"
   
