@@ -4,9 +4,9 @@
 class PiGeneratorFromRandomNumbers < Formula
   desc "Generates Pi from random numbers and co-primes"
   homepage "https://github.com/jakevossen5/pi-generator-from-random-numbers"
-  url "https://github.com/jakevossen5/pi-generator-from-random-numbers/releases/download/2.0.0/pi-generator-from-random-numbers"
-  sha256 "bc18c6a92114acbdaf1697e9e645fbc7186c69cdfd317cc4d2f7d5eb3c6965b4"
-  version "2.0.0"
+  url "https://github.com/jakevossen5/pi-generator-from-random-numbers/releases/download/2.0.1/pi-generator-from-random-numberspi-generator-from-random-numbers"
+  sha256 "69e9207ea6deb623266583ae0420ad7c5891deac1bfa18c515e0bd0d65112942"
+  version "2.0.1"
   
   def install
       bin.install "pi-generator-from-random-numbers"
