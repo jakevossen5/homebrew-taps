@@ -4,9 +4,9 @@
 class PiGeneratorFromBlocks < Formula
   desc "Generate pi in a ridiculous way using elastic collisions"
   homepage "https://github.com/jakevossen5/pi-generator-from-blocks"
-  url "https://github.com/jakevossen5/pi-generator-from-blocks/releases/download/1.0.0/pi-generator-from-blocks"
-  sha256 "cd1e3ee4c924ae093a1e556acc0c4cdbc9abec361d278b6da699ce4a7b36251c"
-  version "1.0.0"
+  url "https://github.com/jakevossen5/pi-generator-from-blocks/releases/download/1.0.1/pi-generator-from-blocks"
+  sha256 "1f5a5b9ade1ebfa4eb978e05cfc1d82a3fb5c3612065cd67407c09a7d87d6d3f"
+  version "1.0.1"
   
   def install
       bin.install "pi-generator-from-blocks"
