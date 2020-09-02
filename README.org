@@ -11,6 +11,7 @@ jakevossen5/taps= in your terminal. Then install software by using
 
 |Name |Description |Link |
 |---+---+---|
+|watson-vis|Turns Watson time data into a CLI pie chart|https://github.com/jakevossen5/watson-vis
 |check-for-homebrew-alternatives |Looks through Applications folder and sees if you can replace anything with Homebrew versions|https://github.com/jakevossen5/check-for-homebrew-alternatives   |
 |pi-generator-from-blocks |Generate pi from eleastic collisions |https://github.com/jakevossen5/pi-generator-from-blocks   |
 |pi-generator-from-random-numbers|Generate pi from random numbers using co-primes|https://github.com/jakevossen5/pi-generator-from-random-numbers |
