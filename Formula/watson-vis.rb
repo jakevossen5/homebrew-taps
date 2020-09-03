@@ -4,9 +4,9 @@
 class WatsonVis < Formula
   desc "Turns Watson time data into a CLI pie chart"
   homepage "https://github.com/jakevossen5/watson-vis"
-  url "https://github.com/jakevossen5/watson-vis/releases/download/0.1.0/watson-vis"
-  sha256 "3455e8fed215881e3ee52dde272e9d7f08707bfa41e1b17ea7a8027a08f36af0"
-  version "0.1.0"
+  url "https://github.com/jakevossen5/watson-vis/releases/download/0.1.1/watson-vis"
+  sha256 "68e1bb56fea087180b72a7d8d8568ae0bab81c0d7749f6b3b8e06bea82f36b7a"
+  version "0.1.1"
 
   def install
       bin.install "watson-vis"
