@@ -5,9 +5,9 @@ class CheckForHomebrewAlternatives < Formula
   include Language::Python::Virtualenv
   desc "Searches for homebrew versions of apps installed from other sources"
   homepage "https://github.com/jakevossen5/check-for-homebrew-alternatives"
-  url "https://github.com/jakevossen5/check-for-homebrew-alternatives/archive/1.0.4.tar.gz"
-  sha256 "036101a6b55477abd606d691dfe8e4a2742abba23de523733c7739f52e1ee21a"
-  version "1.0.4"
+  url "https://github.com/jakevossen5/check-for-homebrew-alternatives/archive/1.0.5.tar.gz"
+  sha256 "64433ae46fbbea28c52cb749e40a43ff9a9cb1cff35d415675ca24a694028916"
+  version "1.0.5"
 
   depends_on "python"
 
